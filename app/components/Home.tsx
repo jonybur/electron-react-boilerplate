@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import styles from './Home.css';
+// import 'Home.css';
+const styles = require('./Home.css');
 
 type Props = {};
 
@@ -8,7 +9,7 @@ export default class Home extends Component<Props> {
 
   render() {
     return (
-      <div className={styles.container} data-tid="container">
+      <div className={styles} data-tid="container">
         <h2>Home</h2>
       </div>
     );

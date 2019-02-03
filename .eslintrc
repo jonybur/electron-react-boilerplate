@@ -40,7 +40,7 @@
     "react/jsx-no-bind": "off",
     "react/jsx-filename-extension": [
       "error",
-      { "extensions": [".js", ".jsx"] }
+      { "extensions": [".js", ".jsx", ".tsx", ".ts"] }
     ],
     "react/prefer-stateless-function": "off"
   },
