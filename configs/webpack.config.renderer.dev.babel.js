@@ -67,6 +67,7 @@ export default merge.smart(baseConfig, {
           loader: 'ts-loader'
         }
       },
+      // css
       {
         test: /\.css$/,
         use: [
@@ -74,9 +75,9 @@ export default merge.smart(baseConfig, {
           {
             loader: 'css-loader',
             options: {
+              importLoaders: 1,
               modules: true,
               sourceMap: true,
-              importLoaders: 1,
               localIdentName: '[name]__[local]__[hash:base64:5]'
             }
           },

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import styles from "./styles.css"; -> fails
 import './styles.css';
 
 type Props = {};

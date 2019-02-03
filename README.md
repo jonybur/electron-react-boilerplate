@@ -3,7 +3,7 @@
 <br>
 
 <p>
-  Skim Electron React Boilerplate uses <a href="http://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="http://webpack.github.io/docs/">Webpack</a> and <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> for rapid application development (HMR).
+  Skim Electron React Boilerplate uses <a href="http://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="https://www.typescriptlang.org/">Typescript</a>, <a href="http://webpack.github.io/docs/">Webpack</a> and <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> for rapid application development (HMR).
 </p>
 
 <br>
@@ -11,7 +11,6 @@
 <div align="center">
   <a href="https://facebook.github.io/react/"><img src="./internals/img/react-padded-90.png" /></a>
   <a href="https://webpack.github.io/"><img src="./internals/img/webpack-padded-90.png" /></a>
-  <a href="https://flowtype.org/"><img src="./internals/img/flow-padded-90.png" /></a>
   <a href="http://eslint.org/"><img src="./internals/img/eslint-padded-90.png" /></a>
   <a href="https://facebook.github.io/jest/"><img src="./internals/img/jest-padded-90.png" /></a>
   <a href="https://yarnpkg.com/"><img src="./internals/img/yarn-padded-90.png" /></a>

@@ -46,34 +46,15 @@ export default merge.smart(baseConfig, {
           {
             loader: 'css-loader',
             options: {
+              importLoaders: 1,
               modules: true,
               sourceMap: true,
-              importLoaders: 1,
               localIdentName: '[name]__[local]__[hash:base64:5]'
             }
           },
           'postcss-loader'
         ]
       },
-      /*
-      // Pipe other styles through css modules and append to style.css
-      {
-        test: /^((?!\.global).)*\.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader
-          },
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true,
-              localIdentName: '[name]__[local]__[hash:base64:5]',
-              sourceMap: true
-            }
-          }
-        ]
-      },
-      */
       // WOFF Font
       {
         test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
