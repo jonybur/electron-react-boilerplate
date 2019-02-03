@@ -34,7 +34,7 @@
     "test-watch": "yarn test --watch"
   },
   "lint-staged": {
-    "*.{js,jsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "cross-env NODE_ENV=development eslint --cache --format=pretty",
       "prettier --ignore-path .eslintignore --single-quote --write",
       "git add"
@@ -236,7 +236,9 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
     "webpack-merge": "^4.1.4",
-    "yarn": "^1.12.3"
+    "yarn": "^1.12.3",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2"
   },
   "dependencies": {
     "electron-debug": "^2.0.0",
