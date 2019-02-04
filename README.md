@@ -1,10 +1,12 @@
-<img src="internals/img/erb-banner.png" width="100%" />
+# Skimmed Electron React Boilerplate
 
-<br>
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/electron-react-blpt)
+[![OpenCollective](https://opencollective.com/electron-react-boilerplate/backers/badge.svg)](#backers)
+[![OpenCollective](https://opencollective.com/electron-react-boilerplate/sponsors/badge.svg)](#sponsors)
 
-<p>
-  Skim Electron React Boilerplate uses <a href="http://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="https://www.typescriptlang.org/">Typescript</a>, <a href="http://webpack.github.io/docs/">Webpack</a> and <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> for rapid application development (HMR).
-</p>
+Skimmed Electron React Boilerplate is a _skimmed_ version of electron-react-boilerplate. This version uses <a href="http://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a> (no Redux), <a href="https://www.typescriptlang.org/">Typescript</a> (instead of Flow), <a href="http://webpack.github.io/docs/">Webpack</a> and <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> for rapid application development (HMR).
+
+It also has some other changes in package dependencies and opinionated code.
 
 <br>
 
@@ -14,25 +16,10 @@
   <a href="http://eslint.org/"><img src="./internals/img/eslint-padded-90.png" /></a>
   <a href="https://facebook.github.io/jest/"><img src="./internals/img/jest-padded-90.png" /></a>
   <a href="https://yarnpkg.com/"><img src="./internals/img/yarn-padded-90.png" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="./internals/img/typescript-padded-90.png" /></a>
 </div>
 
-<hr />
 <br />
-
-<div align="center">
-
-[![Build Status][travis-image]][travis-url]
-[![Appveyor Build Status][appveyor-image]][appveyor-url]
-[![Dependency Status][david-image]][david-url]
-[![DevDependency Status][david-dev-image]][david-dev-url]
-[![Github Tag][github-tag-image]][github-tag-url]
-
-[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/electron-react-blpt)
-[![OpenCollective](https://opencollective.com/electron-react-boilerplate/backers/badge.svg)](#backers)
-[![OpenCollective](https://opencollective.com/electron-react-boilerplate/sponsors/badge.svg)](#sponsors)
-[![Good first issues open][good-first-issue-image]][good-first-issue-url]
-
-</div>
 
 <div align="center">
 
@@ -73,7 +60,7 @@ $ yarn package
 
 ## Docs
 
-See our [docs and guides here](https://electron-react-boilerplate.js.org/docs/installation)
+See the original electron-react-boilerplate [docs and guides here](https://electron-react-boilerplate.js.org/docs/installation)
 
 ## Maintainers
 
@@ -84,7 +71,7 @@ See our [docs and guides here](https://electron-react-boilerplate.js.org/docs/in
 
 ## Backers
 
-Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/electron-react-boilerplate#backer)]
+Support electron-react-boilerplate with a monthly donation and help continue the activities. [[Become a backer](https://opencollective.com/electron-react-boilerplate#backer)]
 
 <a href="https://opencollective.com/electron-react-boilerplate/backer/0/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/0/avatar.svg"></a>
 <a href="https://opencollective.com/electron-react-boilerplate/backer/1/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/1/avatar.svg"></a>
