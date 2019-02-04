@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+.pirulin {
+  color: red;
+}
+
 a:hover {
   opacity: 1;
   text-decoration: none;

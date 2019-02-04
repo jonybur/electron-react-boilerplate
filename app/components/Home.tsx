@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
-// import styles from "./styles.css"; -> fails
-import './styles.css';
+import React, { PureComponent } from 'react';
+import { IProps } from './types';
 
-type Props = {};
+const styles = require('./Home.css');
 
-export default class Home extends Component<Props> {
-  props: Props;
-
+export default class Home extends PureComponent<IProps> {
   render() {
     return (
       <div data-tid="container">
-        <h2>Home</h2>
+        <h2 className={styles.homeTitle}>Home</h2>
       </div>
     );
   }
