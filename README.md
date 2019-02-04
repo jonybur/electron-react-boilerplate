@@ -32,7 +32,7 @@ It also has some other changes in package dependencies and opinionated code.
 First, clone the repo via git:
 
 ```bash
-git clone --depth 1 --single-branch --branch master https://github.com/jonybur/skim-electron-react-boilerplate.git your-project-name
+git clone --depth 1 --single-branch --branch master https://github.com/jonybur/skimmed-electron-react-boilerplate.git your-project-name
 ```
 
 And then install the dependencies with yarn.
